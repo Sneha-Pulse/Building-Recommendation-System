@@ -72,8 +72,6 @@ scikit-learn
 ## Workflow
 Recommendation systems are becoming increasingly important in today’s extremely busy world. People are always short on time with the myriad tasks they need to accomplish in the limited 24 hours. Therefore, recommendation systems help users make the right choices without expending too much cognitive effort.
 
-The purpose of a recommendation system is to search for content that would be interesting to an individual. It involves various factors to create personalized lists of useful and relevant content specific to each user. Recommendation systems use Artificial Intelligence-based algorithms to analyze user behavior, browsing history, and similarities with other users to generate customized recommendations. This is achieved through predictive modeling and heuristics based on available data.
-
 This system helps users **discover new content efficiently** while improving their engagement with the Pratilipi platform.
 
 ---
