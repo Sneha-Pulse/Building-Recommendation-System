@@ -38,24 +38,6 @@ This ensures that recommendations are based on how similar the engagement patter
 3. **Find Nearest Neighbors**: Identify the top-K most similar Pratilipis for each item.
 4. **Generate Recommendations**: Suggest items that are highly similar to those previously engaged with by the user.
 
-## Types of Recommendation Systems
-### 1️⃣ Content-Based Filtering
-- Uses item attributes (e.g., genre, author) to recommend similar Pratilipis.
-- **Limitations**: Suffers from over-specialization, limiting diversity in recommendations.
-
-### 2️⃣ Collaborative Filtering (Used in this Project)
-- Uses user-item interactions to recommend content based on similarity patterns.
-- **Advantages**:
-  - Works well without requiring explicit content metadata.
-  - Captures evolving user interests dynamically.
-- **Challenges**:
-  - Cold start problem for new users and items.
-  - Computational complexity for large datasets.
-
-### 3️⃣ Hybrid Recommendation Systems
-- Combine both methods to improve recommendation quality.
-- Used in modern large-scale recommender systems.
-
 ## Model Implementation Steps
 1. **Load Data**: Preprocess user-item interactions.
 2. **Define Similarity Metric**: Compute cosine similarity between items.
